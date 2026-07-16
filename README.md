@@ -11,11 +11,11 @@
  ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝
 ```
 
-**A high-performance server system built by FEPT, based on Arch Linux**
+### jnlos server powered by FEPT
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)]()
-[![Arch Linux](https://img.shields.io/badge/Arch%20Linux-1793D1?style=flat&logo=archlinux&logoColor=white)](https://archlinux.org/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=flat&logo=github)](https://github.com/zengyouhao0922/jnlos-server)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![QQ Group](https://img.shields.io/badge/QQ%20Group-1030101275-orange?style=flat&logo=tencentqq)](https://qm.qq.com/cgi-bin/qm/qr?k=your_key)
 
 </div>
 
@@ -23,7 +23,7 @@
 
 ## 📋 Overview
 
-JNLOS Server is a lightweight, high-performance server platform developed by the FEPT team, based on Arch Linux. Designed for reliability and scalability, it provides a robust foundation for modern server applications.
+JNLOS Server is a lightweight, high-performance server platform developed by the FEPT team. Designed for reliability and scalability, it provides a robust foundation for modern server applications.
 
 ## ✨ Features
 
@@ -45,19 +45,6 @@ JNLOS Server is a lightweight, high-performance server platform developed by the
 | Build System | CMake |
 
 ## 📦 Installation
-
-### Arch Linux (Recommended)
-
-```bash
-# Clone the repository
-git clone https://github.com/zengyouhao0922/jnlos-server.git
-cd jnlos-server
-
-# Run the install script
-bash /root/install.sh
-```
-
-### Other Linux Distributions
 
 ```bash
 # Clone the repository
@@ -190,16 +177,18 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Project Lead: FEPT
 - Contributors: FEPT Members
 
-## 📞 Contact
+## 📞 Contact & Support
 
-- **Website**: [https://fept.dev](https://fept.dev)
-- **Email**: support@fept.dev
 - **GitHub**: [https://github.com/zengyouhao0922/jnlos-server](https://github.com/zengyouhao0922/jnlos-server)
+- **Official QQ Group**: `1030101275`
+- **Email**: support@fept.dev
 
 ---
 
 <div align="center">
 
 **Made with ❤️ by FEPT**
+
+**jnlos server powered by FEPT**
 
 </div>
