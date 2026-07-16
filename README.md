@@ -11,10 +11,11 @@
  ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝
 ```
 
-**A high-performance server system built by FEPT**
+**A high-performance server system built by FEPT, based on Arch Linux**
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.0.0-green.svg)]()
+[![Arch Linux](https://img.shields.io/badge/Arch%20Linux-1793D1?style=flat&logo=archlinux&logoColor=white)](https://archlinux.org/)
 
 </div>
 
@@ -22,7 +23,7 @@
 
 ## 📋 Overview
 
-JNLOS Server is a lightweight, high-performance server platform developed by the FEPT team. Designed for reliability and scalability, it provides a robust foundation for modern server applications.
+JNLOS Server is a lightweight, high-performance server platform developed by the FEPT team, based on Arch Linux. Designed for reliability and scalability, it provides a robust foundation for modern server applications.
 
 ## ✨ Features
 
@@ -38,17 +39,35 @@ JNLOS Server is a lightweight, high-performance server platform developed by the
 | Component | Technology |
 |-----------|------------|
 | Language | C/C++ |
-| OS | Custom JNLOS Kernel |
+| Base OS | Arch Linux |
+| Kernel | Custom JNLOS Kernel |
 | Network | High-performance I/O |
 | Build System | CMake |
 
 ## 📦 Installation
 
-### Prerequisites
+### Arch Linux (Recommended)
+
+```bash
+# Install dependencies
+sudo pacman -S base-devel cmake git
+
+# Clone the repository
+git clone https://github.com/zengyouhao0922/jnlos-server.git
+cd jnlos-server
+
+# Build and install
+mkdir build && cd build
+cmake ..
+make -j$(nproc)
+sudo make install
+```
+
+### Other Linux Distributions
 
 ```bash
 # Ensure you have the required dependencies
-git clone https://github.com/fept/jnlos-server.git
+git clone https://github.com/zengyouhao0922/jnlos-server.git
 cd jnlos-server
 ```
 
@@ -192,7 +211,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Website**: [https://fept.dev](https://fept.dev)
 - **Email**: support@fept.dev
-- **GitHub**: [https://github.com/fept](https://github.com/fept)
+- **GitHub**: [https://github.com/zengyouhao0922/jnlos-server](https://github.com/zengyouhao0922/jnlos-server)
 
 ---
 
