@@ -49,40 +49,23 @@ JNLOS Server is a lightweight, high-performance server platform developed by the
 ### Arch Linux (Recommended)
 
 ```bash
-# Install dependencies
-sudo pacman -S base-devel cmake git
-
 # Clone the repository
 git clone https://github.com/zengyouhao0922/jnlos-server.git
 cd jnlos-server
 
-# Build and install
-mkdir build && cd build
-cmake ..
-make -j$(nproc)
-sudo make install
+# Run the install script
+bash /root/install.sh
 ```
 
 ### Other Linux Distributions
 
 ```bash
-# Ensure you have the required dependencies
+# Clone the repository
 git clone https://github.com/zengyouhao0922/jnlos-server.git
 cd jnlos-server
-```
 
-### Build
-
-```bash
-mkdir build && cd build
-cmake ..
-make -j$(nproc)
-```
-
-### Install
-
-```bash
-sudo make install
+# Run the install script
+bash /root/install.sh
 ```
 
 ## 🚀 Quick Start
