@@ -63,7 +63,6 @@ bash /root/install.sh
 #### Added
 - Initial release
 - Core server functionality
-- Basic API endpoints
 - Configuration management
 
 ## ⚠️ Disclaimer
@@ -84,8 +83,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact & Support
 
 - **GitHub**: [https://github.com/zengyouhao0922/jnlos-server](https://github.com/zengyouhao0922/jnlos-server)
-- **Official QQ Group**: `1030101275`
-- **Email**: support@fept.dev
+- **Official QQ Group chat**: `1030101275`
 
 ---
 
